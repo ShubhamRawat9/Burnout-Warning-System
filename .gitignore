@@ -1,0 +1,33 @@
+# --- Secrets: never commit these ---
+.env
+telegram_bot/credentials.json
+*.pem
+*.key
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+
+# --- Virtual environments ---
+venv/
+env/
+ENV/
+.venv/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Streamlit ---
+.streamlit/
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- IDE ---
+.vscode/
+.idea/
